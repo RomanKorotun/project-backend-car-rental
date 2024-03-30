@@ -35,7 +35,7 @@ const carShema = new Schema(
       required: true,
     },
     accessories: {
-      type: Array,
+      type: [String],
       required: true,
     },
     functionalities: {
@@ -43,7 +43,7 @@ const carShema = new Schema(
       required: true,
     },
     rentalPrice: {
-      type: [String],
+      type: String,
       required: true,
     },
     rentalCompany: {
